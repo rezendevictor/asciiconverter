@@ -22,7 +22,7 @@ for x in image_pixels:
     B = x[2]
     luminosity.append(int((R + G + B)//3) )
 
-string = "x`^,:;Il!i~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
+string = "`^,:;Il!i~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
 
 
 ascii_list = []
