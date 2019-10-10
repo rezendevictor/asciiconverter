@@ -20,7 +20,7 @@ for x in image_pixels:
     R = x[0]
     G = x[1]
     B = x[2]
-    luminosity.append(int((R + G + B)//3) )
+    luminosity.append(int((R*0.2126 + G*0.7152 + B*0.0722 )/3 )  )
 
 string = "`^,:;Il!i~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
 
